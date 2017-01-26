@@ -4,10 +4,7 @@
 
 /// An implementation of the Cassowary constraint solving algorithm in Dart.
 ///
-/// To use, import `package:flutter/cassowary.dart`.
-///
-/// This is used by the [RenderAutoLayout] render object in the rendering
-/// library and by the [AutoLayout] widget in the widget library.
+/// To use, import `package:cassowary/cassowary.dart`.
 ///
 /// See also:
 ///
@@ -15,13 +12,13 @@
 /// * <https://constraints.cs.washington.edu/solvers/cassowary-tochi.pdf>
 library cassowary;
 
-export 'src/cassowary/constraint.dart';
-export 'src/cassowary/expression.dart';
-export 'src/cassowary/term.dart';
-export 'src/cassowary/equation_member.dart';
-export 'src/cassowary/constant_member.dart';
-export 'src/cassowary/solver.dart';
-export 'src/cassowary/result.dart';
-export 'src/cassowary/parser_exception.dart';
-export 'src/cassowary/param.dart';
-export 'src/cassowary/priority.dart';
+export 'src/constraint.dart';
+export 'src/expression.dart';
+export 'src/term.dart';
+export 'src/equation_member.dart';
+export 'src/constant_member.dart';
+export 'src/solver.dart';
+export 'src/result.dart';
+export 'src/parser_exception.dart';
+export 'src/param.dart';
+export 'src/priority.dart';
