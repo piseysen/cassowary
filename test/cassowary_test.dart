@@ -4,7 +4,7 @@
 
 import 'package:test/test.dart';
 
-import 'package:flutter/cassowary.dart';
+import 'package:cassowary/cassowary.dart';
 
 void main() {
   test('variable', () {
